@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'comix_no2_clmbold';
+    src: url('comixno2clm_bold-webfont-webfont.eot');
+    src: url('comixno2clm_bold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+        url('comixno2clm_bold-webfont-webfont.woff2') format('woff2'),
+        url('comixno2clm_bold-webfont-webfont.woff') format('woff'),
+        url('comixno2clm_bold-webfont-webfont.ttf') format('truetype'),
+        url('comixno2clm_bold-webfont-webfont.svg#comix_no2_clmbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    direction: rtl;
+    background-image: url(../assets/תמונות/ממוזער.jpg);
+    font-family: 'comix_no2_clmbold';
+    background-attachment: fixed;
+  
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#topNav {
+    font-size: 20px;
+    background-color: #FFAEC9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px;
+    color: #000;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    padding-left: 80px;
+
+}
+.nav {
+    font-family: 'comix_no2_clmbold';
+    padding: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+    font: size 10px;
+    margin-bottom: none;
+    color: #000;
+}
+.nav>p{
+    margin: none;
+}
+#logo {
+    margin-top: none;
+    margin-bottom: none;
+    height: 50px;
+}
+.fa-home:before {
+    content: "\f015";
+    margin-right: 55%;
+    font-size: x-large;
+}
+.fa-baby:before {
+    content: "\f77c";
+    margin-right: 100%;
+    font-size: x-large;
+}
+.fa-baby-carriage:before {
+    content: "\f77d";
+    margin-right: 55%;
+    font-size: x-large;
+}
+.fa-align-right:before{
+    margin-right: 55%;
+    font-size: x-large;
+}
+.fa-comments:before{
+    margin-right: 55%;
+    font-size: x-large;
+}
+.fa-thumbs-up:before{
+    margin-right: 55%;
+    font-size: x-large;
+}
+#logo>img {
+    height: 100px;
+}
+.nav>button{
+    /* padding: 10px; */
+    margin-top: none;
+    text-decoration: none;
+    font: size 10px;
+    margin-bottom: none;
+    color: #000;
+    background-color: #FFAEC9;
+    border-style: none;
+    font-size: 20px;
+}
+#bnav {
+    width: 100px;
+    size: 20px;
+    background-color: #FFAEC9;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
+
+    margin: 0px 0px 0px 0px;
+    color: #000;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+    /* position: absolute; */
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.bottom {
+    width: 100px;
+}
+#toStore{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E82583;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+#toAdv{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E82583;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}

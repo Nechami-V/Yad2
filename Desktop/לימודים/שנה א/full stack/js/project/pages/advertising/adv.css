@@ -1,0 +1,91 @@
+#advertising{
+    background-color: #FFFE;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 800px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #FFAEC9;
+    margin-left: auto;
+    margin-right: auto;
+}
+.adv{
+    margin-top: none;
+    margin-right: 50px;
+    display: flex;
+    background-color: #fcd6df;
+    border-radius: 50px;
+    border-color: #E82583;
+    border-style: solid;
+    height: 30px;
+    width: 300px;
+    flex-direction: rtl;
+    flex-direction: column;
+}
+.txt{
+    font-size: large;
+    margin-right: 50px;
+    margin-top: none;
+    margin-bottom: none;
+}
+.txtIN{
+    display: inline-block;
+    margin-right: 50px;
+
+}
+@font-face {
+    font-family: 'comix_no2_clmbold';
+    src: url('comixno2clm_bold-webfont-webfont.eot');
+    src: url('comixno2clm_bold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+        url('comixno2clm_bold-webfont-webfont.woff2') format('woff2'),
+        url('comixno2clm_bold-webfont-webfont.woff') format('woff'),
+        url('comixno2clm_bold-webfont-webfont.ttf') format('truetype'),
+        url('comixno2clm_bold-webfont-webfont.svg#comix_no2_clmbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#send{
+    background-color: #E82583;
+    border-style: none;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: comix_no2_clmbold;
+    font-size:large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    /* color: #0000; */
+}
+.select{
+    text-overflow: unset;
+}
+
+#picture{
+    display: flex;
+    flex-wrap: wrap;
+}
+#picture>input{
+    width: 250px;
+}
+#picture>button{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    font-size: xx-large;
+    font-family: 'comix_no2_clmbold';
+    border-radius: 100%;
+    background-color: #FFAEC9;
+    border-color: #E82583;
+    border-style: solid;
+    color: #af1c63;
+
+}
+.modal-body{
+    font-size: xx-large;
+}

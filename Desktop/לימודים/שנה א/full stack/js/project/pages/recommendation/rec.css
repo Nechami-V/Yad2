@@ -1,0 +1,78 @@
+#Recommendations {
+    margin-top: 120px;
+    background-color: #fffffe;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+}
+
+.recommend {
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #E82583;
+    border-style: solid;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signature {
+    direction: ltr;
+    font-size: 20px;
+    font-family: 'comix_no2_clmbold';
+}
+
+@font-face {
+    font-family: 'comix_no2_clmbold';
+    src: url('comixno2clm_bold-webfont-webfont.eot');
+    src: url('comixno2clm_bold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+        url('comixno2clm_bold-webfont-webfont.woff2') format('woff2'),
+        url('comixno2clm_bold-webfont-webfont.woff') format('woff'),
+        url('comixno2clm_bold-webfont-webfont.ttf') format('truetype'),
+        url('comixno2clm_bold-webfont-webfont.svg#comix_no2_clmbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+#addRec {
+    background-color: #fffffe;
+    direction: rtl;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+#det {
+    display: flex;
+    flex-wrap: wrap;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.det {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#det>button{
+    background-color: #E82583;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
